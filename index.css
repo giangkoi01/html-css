@@ -1,0 +1,366 @@
+body {
+    margin: center;
+    background-color: white
+}
+
+#header {
+    height: 40px;
+    width: 100%;
+}
+
+#nav-left {
+    float: left;
+    margin-left: 5%;
+}
+
+#nav-right {
+    float: right;
+    margin-right: 7%;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+ul {
+    display: flex;
+}
+
+#banner-bg {
+    background-image: url("images/lodging.png");
+    padding-top: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+#banner {
+    margin-top: -23%;
+    margin-left: 10%;
+}
+
+#banner h2 {
+    color: white;
+    padding-top: -100px;
+}
+
+#banner p {
+    color: white;
+}
+#noidung{
+    background-color: darkgrey;
+}
+
+/* #content{
+    margin: 10px;
+} */
+
+#content-text {
+    margin: 10px;
+}
+
+#content-text p {
+    font-size: 12px;
+}
+
+#content-left {
+    width: 33%;
+    float: left;
+}
+
+#content-left img {
+    margin: 10px;
+    width: 96%;
+}
+
+#content-center{
+    width: 33%;
+    float: left;
+}
+
+#content-center img{
+    margin: 10px;
+    width: 96%;
+}
+
+#content-right {
+    width: 33%;
+    float: left;
+}
+
+#content-right img{
+    margin: 10px;
+    width: 93%;
+    height: auto;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: rgba(165, 145, 116, 0.3);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#footer-content {
+    text-align: left;
+    width: 100%;
+}
+
+.content-text{
+    width: 30%;
+    display: inline-block;
+    padding: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+body {
+    margin: center;
+    background-color: white
+}
+
+#header {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(142, 148, 125, 1); 
+}
+
+#nav-left {
+    float: left;
+    margin-left: 5%;
+}
+
+#nav-right {
+    float: right;
+    margin-right: 7%;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+ul {
+    display: flex;
+}
+
+#banner-bg {
+    padding-top: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+#banner {
+    margin-top: -23%;
+    margin-left: 10%;
+}
+
+#banner h2 {
+    color: white;
+    padding-top: -100px;
+}
+
+#banner p {
+    color: white;
+}
+
+#noidung{
+    background-color: white;
+}
+
+
+/* #content{
+    margin: 10px;
+} */
+
+#content-text {
+    margin: 10px;
+}
+
+#content-text p {
+    font-size: 12px;
+}
+
+#content-left {
+    width: 50%;
+    float: left;
+}
+
+#content-left img {
+    margin: 10px;
+    width: 96%;
+}
+
+#content-center{
+    width: 50%;
+    float: left;
+}
+
+#content-center img{
+    margin: 10px;
+    width: 96%;
+}
+
+#content-right {
+    width: 50%;
+    float: left;
+}
+
+#content-right img{
+    margin: 10px;
+    width: 93%;
+    height: auto;
+}
+
+#footer {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#footer-content {
+    text-align: left;
+    width: 100%;
+}
+
+.content-text{
+    width: 100%;
+    padding: 20px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+    margin: center;
+    background-color: white
+}
+
+#header {
+    height: 40px;
+    background-color: rgba(142, 148, 125, 1); 
+}
+
+#nav-left {
+    float: left;
+    margin-left: 20px;
+}
+
+#nav-right {
+    float: right;
+    margin-right: 40px;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+ul {
+    display: flex;
+}
+
+/* #banner-bg {
+    background-image: url("images/lodging.png");
+    padding-top: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+} */
+
+#banner {
+    margin-top: -23%;
+    margin-left: 10%;
+}
+
+#banner h2 {
+    color: white;
+    padding-top: -100px;
+}
+
+#banner p {
+    color: white;
+}
+#noidung{
+    background-color: white;
+}
+
+/* #content{
+    margin: 10px;
+} */
+
+#content-text {
+    margin: 10px;
+}
+
+#content-text p {
+    font-size: 12px;
+}
+
+#content-left {
+    width: 100%;
+    float: left;
+}
+
+#content-left img {
+    margin: 10px;
+    width: 96%;
+}
+
+#content-center{
+    width: 100%;
+    float: left;
+}
+
+#content-center img{
+    margin: 10px;
+    width: 96%;
+}
+
+#content-right {
+    width: 100%;
+    float: left;
+}
+
+#content-right img{
+    margin: 10px;
+    width: 96%;
+    height: auto;
+}
+
+#footer {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#footer-content {
+    text-align: left;
+    width: 100%;
+}
+
+.content-text{
+    width: 100%;
+    padding: 20px;
+}
+}
